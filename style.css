@@ -1,0 +1,102 @@
+body {
+    font-family: 'Consolas', 'Courier New', monospace;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #232f3e;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+header {
+    background: #161e2d;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #ff9900;
+}
+
+.header-text {
+    flex-grow: 1;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+header p {
+    margin: 5px 0 0 0;
+    font-size: 0.9em;
+}
+
+.profile-section {
+    background: #f8f8f8;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.skills-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.skill-card {
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    border: 1px solid #d5dbdb;
+}
+
+.certification-badge {
+    display: inline-block;
+    background: #ff9900;
+    color: #232f3e;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.aws-badge {
+    width: 150px;
+    height: auto;
+    margin: 10px;
+}
+
+footer {
+    background: #161e2d;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.5rem 0;
+    position: relative;
+    width: 100%;
+    font-size: 0.9em;
+    margin-top: 20px;
+ }
+
+footer a {
+    color: inherit;
+    text-decoration: none;
+}
